@@ -1,0 +1,76 @@
+:root, html{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: hsla(220, 15%, 55%, 0.1);
+    font-family: sans-serif;
+    margin: auto;
+}
+
+.bg{
+    background-color: hsl(212, 45%, 89%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    transform: translate(0, 20%);
+    margin: auto;
+    height: 70vh;
+    width: 90vw;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 15vw;
+    height: 40vh;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    font-size: 16px;
+    padding: 10px;
+}
+
+p{
+    font-size: 11px;
+    color: grey;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.qrcode{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.attribution{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 18vh;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media   (max-width:900px) {
+    .qrcode{
+        max-width: 150px;
+        max-height: 150px;
+    }
+    .card{
+        min-width: 45vw;
+        height: 40vh;
+    }
+}
