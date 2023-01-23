@@ -1,49 +1,44 @@
 :root, html{
-    min-width: 100vw;
-    min-height: 100vh;
-    background-color: hsla(220, 15%, 55%, 0.1);
     font-family: sans-serif;
-    margin: auto;
+    margin: 0;
 }
 
 .bg{
     background-color: hsl(212, 45%, 89%);
     border-radius: 5px;
     display: flex;
-    align-items: center;
-    transform: translate(0, 20%);
+    justify-content: center;
+    min-height: 90vh;
     margin: auto;
-    height: 70vh;
-    width: 90vw;
-    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .card{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
     align-items: center;
     margin: auto;
-    width: 15vw;
-    height: 40vh;
-    padding-top: 10px;
-    padding-bottom: 15px;
+    width: 20%;
+    height: 50vh;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
 }
 
 h1{
-    font-size: 16px;
-    padding: 10px;
+    font-size: 1em;
+    padding: 0.7em;
 }
 
 p{
-    font-size: 11px;
+    font-size: 0.7rem;
     color: grey;
     font-weight: bold;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 img{
@@ -51,14 +46,14 @@ img{
 }
 
 .qrcode{
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 250px;
+    max-height: 250px;
 }
 
 .attribution{
-    font-size: 14px;
+    font-size: 1rem;
     text-align: center;
-    margin-top: 18vh;
+    padding-top: 10px;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
