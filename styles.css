@@ -19,22 +19,20 @@
     text-align: center;
     align-items: center;
     margin: auto;
-    width: 20%;
-    height: 50vh;
-    padding-top: 0.5rem;
-    padding-bottom: 1rem;
+    max-width: 300px;
+    padding: 1rem;
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
 }
 
 h1{
-    font-size: 1em;
-    padding: 0.7em;
+    font-size: 1.5em;
+    padding: 0 1em;
 }
 
 p{
-    font-size: 0.7rem;
+    font-size: 1rem;
     color: grey;
     font-weight: bold;
     padding-left: 1rem;
@@ -46,8 +44,8 @@ img{
 }
 
 .qrcode{
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 100%;
+    height: auto;
 }
 
 .attribution{
@@ -57,15 +55,4 @@ img{
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
-}
-
-@media   (max-width:900px) {
-    .qrcode{
-        max-width: 150px;
-        max-height: 150px;
-    }
-    .card{
-        min-width: 45vw;
-        height: 40vh;
-    }
 }
